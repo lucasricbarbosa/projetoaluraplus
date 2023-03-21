@@ -161,3 +161,45 @@ body {
 .lista__link a:hover{
     color: #EC2F46;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    .secundario__imagem {
+        width: 60vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .rodape__lista a {
+        margin: 0;
+    }
+
+    .rodape__texto {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+}
