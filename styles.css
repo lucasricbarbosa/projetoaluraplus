@@ -166,6 +166,8 @@ body {
     .container {
         display: block;
         background-image: none;
+        height: 65vh;
+        margin-top: 14em;
     }
 
     .container__imagem {
